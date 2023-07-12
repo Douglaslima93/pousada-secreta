@@ -6,11 +6,13 @@
     padding: 20px 80px;
     width: 100%;
     position: fixed;
+    background-color: #000;
 }
 
 .header p{
     font-size: 18px;
     font-weight: 400;
+    color: #fff;
 }
 
 .header strong{
@@ -26,5 +28,9 @@
 
 .nav-link{
     text-decoration: none;
-    color: #3c5e3c;
+    color: #3e75e2;
+}
+
+.nav-link:hover{
+    color: #fff;
 }
