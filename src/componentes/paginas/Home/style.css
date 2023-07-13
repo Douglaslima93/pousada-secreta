@@ -1,3 +1,59 @@
 main{
     padding: 60px 0;
 }
+
+.container-bem-vindo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 100px; 
+}
+
+.texto-bem-vindo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.texto-bem-vindo h2{
+    font-size: 30px;
+    color: #797373;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.texto-bem-vindo p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.container-quartos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.quartos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.quartos img{
+    width: 300px;
+    height: 100%;
+}
+
+.quartos strong{
+    border-bottom: 5px solid #338163;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    color: #797373;
+}
