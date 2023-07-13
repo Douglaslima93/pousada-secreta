@@ -3,6 +3,11 @@ import './style.css'
 import EstruturaPagina from "../../EstruturaPagina";
 import Banner from "../../Banner";
 import Acomodacoes from '../Acomodacoes'
+import Sobre from "../Sobre";
+import imgPousada from '../../../../public/img/img1.jpg'
+import imgAlimentacao from '../../../../public/img/img2.jpg'
+import imgQuartos from '../../../../public/img/img3.jpg'
+import imgRecepcao from '../../../../public/img/img5.jpg'
 
 const Home = () => {
     return(
@@ -35,6 +40,30 @@ const Home = () => {
                     </div>
                 </div>
                 </section> 
+
+                <Sobre
+                titulo= "A pousada"
+                sobre= "A Pousada dispôe de estacionamento privativo gratuito, piscina ao ar livre e bar"
+                img={imgPousada}
+                />
+
+                <Sobre 
+                titulo="Alimentação"
+                sobre=""
+                img={imgAlimentacao}
+                />
+
+                <Sobre
+                titulo=""
+                sobre=""
+                img={imgQuartos}
+                />
+
+                <Sobre
+                titulo=""
+                sobre=""
+                img={imgRecepcao}
+                />
 
             </main>
         </EstruturaPagina>
