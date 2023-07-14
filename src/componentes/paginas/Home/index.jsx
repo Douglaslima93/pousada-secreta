@@ -41,29 +41,37 @@ const Home = () => {
                 </div>
                 </section> 
 
+                <section className="sobre-pousada">
+                <div className="sobre-texto">
+                <h2>Sobre a Pousada!</h2>
+                <p>Conheça um pouco sobre nossa pousada</p>
+                </div>
+
                 <Sobre
                 titulo= "A pousada"
-                sobre= "A Pousada dispôe de estacionamento privativo gratuito, piscina ao ar livre e bar"
+                sobre= "A Pousada dispôe de estacionamento privativo gratuito, piscina ao ar livre e bar."
                 img={imgPousada}
                 />
 
                 <Sobre 
                 titulo="Alimentação"
-                sobre=""
+                sobre="A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hrs."
                 img={imgAlimentacao}
                 />
 
                 <Sobre
-                titulo=""
-                sobre=""
+                titulo="Nossos quartos"
+                sobre="Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeição. Além disso,
+                as unidades da Pousada contam com ar-condicionado e guarda-roupa."
                 img={imgQuartos}
                 />
 
                 <Sobre
-                titulo=""
-                sobre=""
+                titulo="Recepção"
+                sobre="Nossa recepção fica aberta 24hrs."
                 img={imgRecepcao}
                 />
+                </section>
 
             </main>
         </EstruturaPagina>
