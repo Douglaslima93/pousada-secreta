@@ -5,12 +5,26 @@
     padding: 50px 0;
 }
 
+.container-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
 .container-sobre-a-pousada{
+    width: 500px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 5px;
+    
 }
 
 .sobre-a-pousada{
+    width: 100%;
     
 }
 
@@ -20,9 +34,10 @@
 
 .sobre-a-pousada p{
     font-size: 15px;
-    width: 50%;
+    text-align: justify;
 }
 
-.sobre-a-pousada-img{
-    width: 200px;
+.sobre-a-pousada-img img{
+    width: 150px;
+    height: 130px;
 }

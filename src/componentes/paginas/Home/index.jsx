@@ -5,8 +5,8 @@ import Banner from "../../Banner";
 import Acomodacoes from '../Acomodacoes'
 import Sobre from "../Sobre";
 import imgPousada from '../../../../public/img/img1.jpg'
-import imgAlimentacao from '../../../../public/img/img2.jpg'
-import imgQuartos from '../../../../public/img/img3.jpg'
+import imgAlimentacao from '../../../../public/img/img3.jpg'
+import imgQuartos from '../../../../public/img/img2.jpg'
 import imgRecepcao from '../../../../public/img/img5.jpg'
 
 const Home = () => {
@@ -47,6 +47,7 @@ const Home = () => {
                 <p>Conheça um pouco sobre nossa pousada</p>
                 </div>
 
+                <div className="container-sobre">
                 <Sobre
                 titulo= "A pousada"
                 sobre= "A Pousada dispôe de estacionamento privativo gratuito, piscina ao ar livre e bar."
@@ -71,6 +72,7 @@ const Home = () => {
                 sobre="Nossa recepção fica aberta 24hrs."
                 img={imgRecepcao}
                 />
+                </div>
                 </section>
 
             </main>

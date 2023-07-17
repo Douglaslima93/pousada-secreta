@@ -8,10 +8,13 @@ export default function Sobre(props) {
             <div className="sobre-a-pousada">
                 <strong>{props.titulo}</strong>
                 <p>{props.sobre}</p>
+                
             </div>
 
-            <img className="sobre-a-pousada-img" src={props.img}/>
-            
+            <div className="sobre-a-pousada-img">
+            <img src={props.img}/>
+            </div>
+
         </section>
     )
 }
