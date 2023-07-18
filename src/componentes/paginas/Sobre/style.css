@@ -5,6 +5,10 @@
     padding: 50px 0;
 }
 
+.sobre-texto p {
+    text-align: center;
+}
+
 .container-sobre{
     display: flex;
     flex-wrap: wrap;

@@ -8,7 +8,7 @@ export default function Rodape() {
                 <h3>Entre em contato conosco:</h3>
                 <a href="#Mapa"><img src="../icones/endereco.png" alt="Endereço"/>Endereco Av.123,222 - Rio de Janeiro RJ</a>
                 
-                <a href="+552100000000"><img src="../icones/telefone.png" alt="Telefone"/>Cel: (21)0000-0000</a>
+                <a href="tel:+552100000000"><img src="../icones/telefone.png" alt="Telefone"/>Cel: (21)0000-0000</a>
 
                 <a href="https://www.booking.com/index.pt-br.html?label=gen173nr-
                 1BCAEoggI46AdIM1gEaCCIAQGYAS24ARfIAQzYAQHoAQGIAgGoAgO4AuGTxqUGwAIB0gIkN2Q3ZWMxZDAtZTc3MS00MGY4LWExOT

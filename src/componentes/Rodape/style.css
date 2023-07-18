@@ -1,3 +1,78 @@
 footer{
     background-color: #5cb85c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
 }
+
+.contato{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.contato h3{
+    font-size: 20px;
+    color: #3e75e2;
+}
+
+.contato h3:hover{
+    color: #fff;
+}
+
+.contato a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #3e75e2;
+    padding: 5px;
+}
+
+.contato a:hover {
+    color: #fff;
+}
+
+.patente{
+    text-align: center;
+    border-top: 2px solid #000;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.patente span{
+    color: #3e75e2;
+}
+
+.patente span:hover{
+    color: #fff;
+}
+
+@media screen and (max-width: 350px) {
+    .contato{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contato{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+}
+
+
+

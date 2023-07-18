@@ -57,3 +57,31 @@ main{
     padding: 20px 0;
     color: #797373;
 }
+
+@media screen and (max-width: 350px) {
+    .container-bem-vindo {
+        padding: 50px 10px; 
+    }
+
+    .texto-bem-vindo h2{
+        text-align: center;
+    }
+
+    .texto-bem-vindo p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-bem-vindo {
+        padding: 50px 10px; 
+    }
+
+    .texto-bem-vindo h2{
+        text-align: center;
+    }
+
+    .texto-bem-vindo p {
+        text-align: center;
+    }
+}
