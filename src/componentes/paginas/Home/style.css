@@ -16,7 +16,7 @@ main{
     padding: 30px 0;
 }
 
-.texto-bem-vindo h2, .sobre-texto h2{
+.texto-bem-vindo h2, .sobre-texto h2, .container-mapa h2{
     font-size: 30px;
     color: #797373;
     text-transform: uppercase;
@@ -24,7 +24,7 @@ main{
     padding-bottom: 20px;
 }
 
-.texto-bem-vindo p, .sobre-texto p{
+.texto-bem-vindo p, .sobre-texto p, .container-mapa p{
     font-weight: 500;
     font-size: 18px;
     margin-top: 5px;

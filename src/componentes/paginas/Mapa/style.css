@@ -1,0 +1,13 @@
+.container-mapa{
+    padding: 80px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mapa{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+}

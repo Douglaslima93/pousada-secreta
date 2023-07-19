@@ -8,6 +8,7 @@ import imgPousada from '../../../../public/img/img1.jpg'
 import imgAlimentacao from '../../../../public/img/img3.jpg'
 import imgQuartos from '../../../../public/img/img2.jpg'
 import imgRecepcao from '../../../../public/img/img5.jpg'
+import Mapa from '../Mapa'
 
 const Home = () => {
     return(
@@ -40,6 +41,8 @@ const Home = () => {
                     </div>
                 </div>
                 </section> 
+
+                <Mapa/>
 
                 <section className="sobre-pousada">
                 <div className="sobre-texto">
