@@ -2,7 +2,6 @@ import React from "react";
 import './style.css'
 import EstruturaPagina from "../../EstruturaPagina";
 import Banner from "../../Banner";
-import Acomodacoes from '../Acomodacoes'
 import Sobre from "../Sobre";
 import imgPousada from '../../../../public/img/img1.jpg'
 import imgAlimentacao from '../../../../public/img/img3.jpg'
@@ -44,7 +43,7 @@ const Home = () => {
 
                 <Mapa/>
 
-                <section className="sobre-pousada">
+                <section className="sobre-pousada" id="#sobre">
                 <div className="sobre-texto">
                 <h2>Sobre a Pousada!</h2>
                 <p>Conheça um pouco sobre nossa pousada</p>
