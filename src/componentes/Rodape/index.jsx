@@ -6,7 +6,7 @@ export default function Rodape() {
         <footer>
             <div className="contato">
                 <h3>Entre em contato conosco:</h3>
-                <a href="#Mapa"><img src="../icones/endereco.png" alt="Endereço"/>Endereco Av.123,222 - Rio de Janeiro RJ</a>
+                <a href="#mapa"><img src="../icones/endereco.png" alt="Endereço"/>Endereco Av.123,222 - Rio de Janeiro RJ</a>
                 
                 <a href="tel:+552100000000"><img src="../icones/telefone.png" alt="Telefone"/>Cel: (21)0000-0000</a>
 

@@ -34,3 +34,16 @@
 .nav-link:hover{
     color: #fff;
 }
+
+@media screen and (max-width:350px) {
+    .header{
+        padding: 5px 10px;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+    }
+}
