@@ -35,14 +35,14 @@
 
 @media screen and (max-width:350px) {
     .texto-banner{
-        width: 80%;
+        width: 100%;
         height: 200px;
     }
 }
 
 @media screen and(max-width:768px) {
     .texto-banner{
-        width: 80%;
+        width: 100%;
         height: 200px;
     }
 }
