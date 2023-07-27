@@ -14,7 +14,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
+    width: 100%;
+    max-width: 1240px;
 }
 
 .container-sobre-a-pousada{
@@ -29,7 +30,10 @@
 
 .sobre-a-pousada{
     width: 100%;
-    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .sobre-a-pousada strong{
